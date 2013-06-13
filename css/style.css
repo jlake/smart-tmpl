@@ -2,7 +2,7 @@
 body {
 	font-size:12px;
 	-webkit-user-select:none;
-	-webkit-text-size-adjust:none;
+	/* -webkit-text-size-adjust:none; */
 	font-family: "メイリオ","ＭＳ Ｐゴシック",Helvetica, Arial, sans-serif;
 }
 .clear:after {
@@ -360,13 +360,14 @@ body {
 /* サムネイルリスト */
 .thumb-list {
 	display: block;
+    padding: 5px;
 }
 
 .thumb-list .thumb {
 	float: left;
 	width: 65x;
 	border: 1px solid #999;
-	margin: 10px 5px;
+	margin-right: 5px;
 	padding: 5px;
 }
 .thumb-list .thumb img {
