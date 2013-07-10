@@ -5,14 +5,14 @@ body {
 	/* -webkit-text-size-adjust:none; */
 	font-family: "メイリオ","ＭＳ Ｐゴシック",Helvetica, Arial, sans-serif;
 }
-.clear:after {
+.ib-box:after {
 	content: ".";
 	display: block;
 	height: 0;
 	clear: both;
 	visibility: hidden;
 }
-.clear {
+.ib-box {
 	display: inline-block;
 }
 
