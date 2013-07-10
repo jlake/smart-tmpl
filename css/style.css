@@ -5,15 +5,15 @@ body {
 	/* -webkit-text-size-adjust:none; */
 	font-family: "メイリオ","ＭＳ Ｐゴシック",Helvetica, Arial, sans-serif;
 }
+.ib-box {
+	display: inline-block;
+}
 .ib-box:after {
 	content: ".";
 	display: block;
 	height: 0;
 	clear: both;
 	visibility: hidden;
-}
-.ib-box {
-	display: inline-block;
 }
 
 /* ヘッダ・フーター */
